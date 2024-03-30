@@ -121,9 +121,7 @@
   }
 
   .overlay {
-    background: #2b3149;  /* fallback for old browsers */
-    /* background: -webkit-linear-gradient(to right, #0575E6, #00F260);  /* Chrome 10-25, Safari 5.1-6 */
-    /* background: linear-gradient(to right, #0575E6, #00F260); W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */ 
+    background: #2b3149; 
     opacity:1;
     position: absolute;
     width: 100%;
@@ -332,7 +330,7 @@
     display: inline-block;
     vertical-align: middle;
     color: #f9f9f9;
-    font-weight: 500;   
+    font-weight: 400;   
   }
 
   .home-info span small {
@@ -589,9 +587,7 @@
   -----------------------------------------*/
 
   #contact {
-    background: #00F260;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #0575E6, #00F260);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #0575E6, #00F260); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background:#2b3149;
   }
 
   #contact .section-title h2 {
@@ -1017,4 +1013,9 @@
       background: #f0f0f0;  
   }
 
-  
+  .no-js .owl-carousel, .owl-carousel.owl-loaded{
+    display: inline-block !important;
+  }
+  .owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
+    background: #f26522 !important;
+}
